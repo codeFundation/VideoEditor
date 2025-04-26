@@ -26,4 +26,4 @@ make
 - mejorar las funciones
 
 # Proyecto actual
-![Vista previa](preview.png)
+![Vista previa](avances_de_videoEditor.png)
