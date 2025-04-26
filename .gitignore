@@ -1,0 +1,7 @@
+.qmake.stash
+build
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
