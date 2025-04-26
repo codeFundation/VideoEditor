@@ -1,0 +1,110 @@
+/* --- Estilo general --- */
+* {
+    font-family: "Segoe UI", "Verdana", sans-serif;
+    font-size: 10pt;
+    color: #dddddd;
+}
+
+QWidget {
+    background-color: #2b2b2b;
+}
+
+/* --- Botones estilo Blender --- */
+QPushButton {
+    background-color: #3c3c3c;
+    border: 1px solid #2e2e2e;
+    border-radius: 4px;
+    padding: 6px 12px;
+    color: #ffffff;
+    transition: all 0.2s;
+}
+
+QPushButton:hover {
+    background-color: #3478f6; /* Azul estilo Blender */
+    color: #ffffff;
+    border: 1px solid #1e90ff;
+}
+
+QPushButton:pressed {
+    background-color: #245bb5;
+    border: 1px solid #1e90ff;
+}
+
+/* --- LineEdit, TextEdit --- */
+QLineEdit, QTextEdit, QPlainTextEdit {
+    background-color: #3b3b3b;
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 4px;
+    selection-background-color: #3478f6;
+    selection-color: #ffffff;
+}
+
+/* --- QMenuBar --- */
+QMenuBar {
+    background-color: #2b2b2b;
+}
+
+QMenuBar::item {
+    padding: 4px 10px;
+    background: transparent;
+    color: #dddddd;
+}
+
+QMenuBar::item:selected {
+    background-color: #3478f6;
+    color: white;
+}
+
+/* --- QMenu --- */
+QMenu {
+    background-color: #2b2b2b;
+    border: 1px solid #444;
+}
+
+QMenu::item {
+    padding: 5px 20px;
+    color: #dddddd;
+}
+
+QMenu::item:selected {
+    background-color: #3478f6;
+    color: white;
+}
+
+/* --- Scrollbars --- */
+QScrollBar:horizontal, QScrollBar:vertical {
+    background: #2b2b2b;
+    border: none;
+    width: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    background: #555;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:hover {
+    background: #3478f6;
+}
+
+/* --- ToolTips --- */
+QToolTip {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+/* --- GroupBoxes --- */
+QGroupBox {
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+
+QGroupBox:title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 0 3px;
+}

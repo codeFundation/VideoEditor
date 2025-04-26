@@ -17,5 +17,7 @@ HEADERS += app/headers/mainwindow.h \
 
 FORMS += ui/mainwindow.ui
 
+RESOURCES += resources/resources.qrc
+
 # Configuración adicional
 CONFIG += c++17
